@@ -16,6 +16,7 @@
 		F8F0DC0428B3FD7D001C34EC /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = F8F0DC0128B3FD7D001C34EC /* menu.json */; };
 		F8F0DC0528B3FD7D001C34EC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC0228B3FD7D001C34EC /* Order.swift */; };
 		F8F0DC0728B407B8001C34EC /* itemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC0628B407B8001C34EC /* itemRow.swift */; };
+		F8F0DC0928B40CBE001C34EC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC0828B40CBE001C34EC /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F8F0DC0128B3FD7D001C34EC /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		F8F0DC0228B3FD7D001C34EC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F8F0DC0628B407B8001C34EC /* itemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemRow.swift; sourceTree = "<group>"; };
+		F8F0DC0828B40CBE001C34EC /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				F8F0DBF028B3FCC6001C34EC /* iDineApp.swift */,
 				F8F0DBF228B3FCC6001C34EC /* ContentView.swift */,
+				F8F0DC0828B40CBE001C34EC /* ItemDetail.swift */,
 				F8F0DBFE28B3FD35001C34EC /* Helper.swift */,
 				F8F0DC0128B3FD7D001C34EC /* menu.json */,
 				F8F0DC0028B3FD7D001C34EC /* Menu.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F0DC0928B40CBE001C34EC /* ItemDetail.swift in Sources */,
 				F8F0DBF328B3FCC6001C34EC /* ContentView.swift in Sources */,
 				F8F0DC0728B407B8001C34EC /* itemRow.swift in Sources */,
 				F8F0DBF128B3FCC6001C34EC /* iDineApp.swift in Sources */,
